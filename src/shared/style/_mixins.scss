@@ -1,0 +1,71 @@
+@use "./colors" as c;
+
+@mixin Headline($font-size, $line-height) {
+  color: c.$NEUTRAL_BLACK;
+  font-weight: 700;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin Headline_1() {
+  @include Headline(64px, 76);
+}
+
+@mixin Headline_2() {
+  @include Headline(36px, 44);
+}
+
+@mixin Headline_3() {
+  @include Headline(28px, 36);
+}
+
+@mixin Headline_4() {
+  @include Headline(20px, 28);
+}
+
+@mixin Body($font-size, $line-height, $font-weight) {
+  color: c.$NEUTRAL_BLACK;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin Body_Regular($font-size, $line-height) {
+  @include Body($font-size, $line-height, 400);
+}
+
+@mixin Body_Regular_1() {
+  @include Body_Regular(18px, 28);
+}
+
+@mixin Body_Regular_2() {
+  @include Body_Regular(16px, 24);
+}
+
+@mixin Body_Regular_3() {
+  @include Body_Regular(14px, 20);
+}
+
+@mixin Body_Regular_4() {
+  @include Body_Regular(12px, 16);
+}
+
+@mixin Body_Medium($font-size, $line-height) {
+  @include Body($font-size, $line-height, 500);
+}
+
+@mixin Body_Medium_1() {
+  @include Body_Medium(18px, 28);
+}
+
+@mixin Body_Medium_2() {
+  @include Body_Medium(16px, 24);
+}
+
+@mixin Body_Medium_3() {
+  @include Body_Medium(14px, 20);
+}
+
+@mixin Body_Medium_4() {
+  @include Body_Medium(12px, 16);
+}
