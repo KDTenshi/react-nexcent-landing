@@ -1,0 +1,56 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Header {
+  background: c.$NEUTRAL_WHITE;
+  padding: 22px 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.Link {
+  @include Body_Regular_2();
+
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.User {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.Login {
+  @include Body_Regular_3();
+
+  padding: 10px 20px;
+  color: c.$BRAND_PRIMARY;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.Signup {
+  @include Body_Regular_3();
+
+  padding: 10px 20px;
+  background: c.$BRAND_PRIMARY;
+  color: c.$NEUTRAL_WHITE;
+  border-radius: 6px;
+  border: 0;
+  outline: 0;
+}

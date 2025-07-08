@@ -8,19 +8,19 @@
 }
 
 @mixin Headline_1() {
-  @include Headline(64px, 76);
+  @include Headline(64px, 76px);
 }
 
 @mixin Headline_2() {
-  @include Headline(36px, 44);
+  @include Headline(36px, 44px);
 }
 
 @mixin Headline_3() {
-  @include Headline(28px, 36);
+  @include Headline(28px, 36px);
 }
 
 @mixin Headline_4() {
-  @include Headline(20px, 28);
+  @include Headline(20px, 28px);
 }
 
 @mixin Body($font-size, $line-height, $font-weight) {
@@ -35,19 +35,19 @@
 }
 
 @mixin Body_Regular_1() {
-  @include Body_Regular(18px, 28);
+  @include Body_Regular(18px, 28px);
 }
 
 @mixin Body_Regular_2() {
-  @include Body_Regular(16px, 24);
+  @include Body_Regular(16px, 24px);
 }
 
 @mixin Body_Regular_3() {
-  @include Body_Regular(14px, 20);
+  @include Body_Regular(14px, 20px);
 }
 
 @mixin Body_Regular_4() {
-  @include Body_Regular(12px, 16);
+  @include Body_Regular(12px, 16px);
 }
 
 @mixin Body_Medium($font-size, $line-height) {
@@ -55,17 +55,17 @@
 }
 
 @mixin Body_Medium_1() {
-  @include Body_Medium(18px, 28);
+  @include Body_Medium(18px, 28px);
 }
 
 @mixin Body_Medium_2() {
-  @include Body_Medium(16px, 24);
+  @include Body_Medium(16px, 24px);
 }
 
 @mixin Body_Medium_3() {
-  @include Body_Medium(14px, 20);
+  @include Body_Medium(14px, 20px);
 }
 
 @mixin Body_Medium_4() {
-  @include Body_Medium(12px, 16);
+  @include Body_Medium(12px, 16px);
 }
