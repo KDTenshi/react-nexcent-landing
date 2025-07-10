@@ -5,7 +5,7 @@ import Button from "../../../shared/ui/Button/Button";
 const Header: FC = () => {
   return (
     <header className={style.Header}>
-      <img src="/Logo.png" alt="" />
+      <img src="/logo_black.png" alt="" />
       <nav className={style.Links}>
         <a href="/" className={style.Link}>
           Home

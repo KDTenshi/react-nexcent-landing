@@ -1,0 +1,117 @@
+.Footer {
+  background: #263238;
+  padding: 64px 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Info {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.Copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Text {
+  color: #263238;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.Socials {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
+
+.Social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+}
+
+.Links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Column {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Title {
+  color: #263238;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Link {
+  color: #263238;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f5f7fa;
+  text-decoration: none;
+}
+
+.Subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Form {
+  width: 255px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 12px;
+  gap: 5px;
+}
+
+.Input {
+  color: #263238;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  background: transparent;
+  color: #f5f7fa;
+  border: 0;
+  outline: 0;
+}
+
+.Button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}/*# sourceMappingURL=Footer.module.css.map */

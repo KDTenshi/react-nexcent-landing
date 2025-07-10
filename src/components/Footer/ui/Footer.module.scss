@@ -1,0 +1,112 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Footer {
+  background: c.$NEUTRAL_BLACK;
+  padding: 64px 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Info {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.Copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Text {
+  @include Body_Regular_3();
+
+  color: c.$NEUTRAL_WHITE;
+}
+
+.Socials {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
+
+.Social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba($color: c.$NEUTRAL_WHITE, $alpha: 0.1);
+  border-radius: 100%;
+}
+
+.Links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Column {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Title {
+  @include Headline_4();
+
+  color: c.$NEUTRAL_WHITE;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Link {
+  @include Body_Regular_3();
+
+  color: c.$NEUTRAL_SILVER;
+  text-decoration: none;
+}
+
+.Subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Form {
+  width: 255px;
+  background: rgba($color: c.$NEUTRAL_WHITE, $alpha: 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 12px;
+  gap: 5px;
+}
+
+.Input {
+  @include Body_Regular_3();
+
+  width: 100%;
+  background: transparent;
+  color: c.$NEUTRAL_SILVER;
+  border: 0;
+  outline: 0;
+}
+
+.Button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
