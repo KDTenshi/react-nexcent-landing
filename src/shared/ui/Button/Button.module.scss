@@ -1,0 +1,106 @@
+@use "../../style/colors" as c;
+
+@mixin Button() {
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.Primary {
+  @include Button();
+
+  color: c.$NEUTRAL_WHITE;
+  background: c.$BRAND_PRIMARY;
+
+  &:focus {
+    outline: 2px solid c.$NEUTRAL_D_GREY;
+    outline-offset: -2px;
+  }
+
+  &:active {
+    background: c.$SHADE_S2;
+  }
+
+  &:disabled {
+    background: c.$NEUTRAL_SILVER;
+    color: c.$NEUTRAL_GREY_BLUE;
+  }
+}
+
+.Secondary {
+  @include Button();
+
+  outline: 1px solid c.$BRAND_PRIMARY;
+  outline-offset: -1px;
+  background: c.$NEUTRAL_WHITE;
+  color: c.$BRAND_PRIMARY;
+
+  &:hover {
+    background: c.$NEUTRAL_SILVER;
+  }
+
+  &:focus {
+    background: c.$NEUTRAL_SILVER;
+    outline: 2px solid c.$NEUTRAL_L_GREY;
+    outline-offset: -2px;
+  }
+
+  &:active {
+    outline: 0;
+    background: c.$NEUTRAL_SILVER;
+  }
+
+  &:disabled {
+    background: c.$NEUTRAL_SILVER;
+    color: c.$NEUTRAL_GREY_BLUE;
+    outline: 0;
+  }
+}
+
+.Tertiary {
+  @include Button();
+
+  background: c.$NEUTRAL_WHITE;
+  color: c.$BRAND_PRIMARY;
+
+  &:hover {
+    background: c.$NEUTRAL_SILVER;
+  }
+
+  &:focus {
+    outline: 2px solid c.$NEUTRAL_D_GREY;
+    outline-offset: -2px;
+  }
+
+  &:active {
+    background: c.$TINT_T5;
+  }
+
+  &:disabled {
+    background: c.$NEUTRAL_SILVER;
+    color: c.$NEUTRAL_GREY_BLUE;
+  }
+}
+
+.Normal {
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Medium {
+  padding: 14px 32px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Small {
+  padding: 8px 24px;
+  font-size: 12px;
+  line-height: 16px;
+}

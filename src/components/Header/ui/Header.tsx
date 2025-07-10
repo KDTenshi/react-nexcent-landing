@@ -1,5 +1,7 @@
 import type { FC } from "react";
 import style from "./Header.module.css";
+import Button from "../../../shared/ui/Button/Button";
+
 const Header: FC = () => {
   return (
     <header className={style.Header}>
@@ -25,8 +27,8 @@ const Header: FC = () => {
         </a>
       </nav>
       <div className={style.User}>
-        <button className={style.Login}>Login</button>
-        <button className={style.Signup}>Sign up</button>
+        <Button type={"tertiary"} size={"medium"} text="Login" />
+        <Button type={"primary"} size={"medium"} text="Sign up" />
       </div>
     </header>
   );

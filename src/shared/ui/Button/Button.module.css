@@ -1,0 +1,100 @@
+.Primary {
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #ffffff;
+  background: #4caf4f;
+}
+.Primary:focus {
+  outline: 2px solid #4d4d4d;
+  outline-offset: -2px;
+}
+.Primary:active {
+  background: #388e3b;
+}
+.Primary:disabled {
+  background: #f5f7fa;
+  color: #abbed1;
+}
+
+.Secondary {
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  outline: 1px solid #4caf4f;
+  outline-offset: -1px;
+  background: #ffffff;
+  color: #4caf4f;
+}
+.Secondary:hover {
+  background: #f5f7fa;
+}
+.Secondary:focus {
+  background: #f5f7fa;
+  outline: 2px solid #89939e;
+  outline-offset: -2px;
+}
+.Secondary:active {
+  outline: 0;
+  background: #f5f7fa;
+}
+.Secondary:disabled {
+  background: #f5f7fa;
+  color: #abbed1;
+  outline: 0;
+}
+
+.Tertiary {
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #4caf4f;
+}
+.Tertiary:hover {
+  background: #f5f7fa;
+}
+.Tertiary:focus {
+  outline: 2px solid #4d4d4d;
+  outline-offset: -2px;
+}
+.Tertiary:active {
+  background: #e8f5e9;
+}
+.Tertiary:disabled {
+  background: #f5f7fa;
+  color: #abbed1;
+}
+
+.Normal {
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Medium {
+  padding: 14px 32px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Small {
+  padding: 8px 24px;
+  font-size: 12px;
+  line-height: 16px;
+}/*# sourceMappingURL=Button.module.css.map */

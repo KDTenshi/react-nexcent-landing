@@ -1,0 +1,23 @@
+@use "../../style/colors" as c;
+
+@mixin Icon() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Green {
+  @include Icon();
+
+  & path {
+    stroke: c.$BRAND_PRIMARY;
+  }
+}
+
+.White {
+  @include Icon();
+
+  & path {
+    stroke: c.$NEUTRAL_WHITE;
+  }
+}

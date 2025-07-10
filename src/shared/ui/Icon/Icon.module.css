@@ -1,0 +1,17 @@
+.Green {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Green path {
+  stroke: #4caf4f;
+}
+
+.White {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.White path {
+  stroke: #ffffff;
+}/*# sourceMappingURL=Icon.module.css.map */
