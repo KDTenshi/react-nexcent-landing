@@ -1,0 +1,29 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Clients {
+  padding: 0 144px;
+  background: c.$NEUTRAL_WHITE;
+}
+
+.Title {
+  @include Headline_2();
+
+  color: c.$NEUTRAL_D_GREY;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.Text {
+  @include Body_Regular_2();
+
+  color: c.$NEUTRAL_GREY;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.Logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,53 @@
+.Banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 96px 144px;
+  background: #f5f7fa;
+  position: relative;
+}
+
+.Title {
+  color: #263238;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #4d4d4d;
+  margin-bottom: 16px;
+}
+.Title span {
+  color: #4caf4f;
+}
+
+.Subtitle {
+  color: #263238;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 32px;
+}
+
+.Dots {
+  position: absolute;
+  bottom: 26px;
+  right: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.Dot {
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #4caf4f;
+  opacity: 0.3;
+}
+.Dot_Active {
+  opacity: 1;
+}/*# sourceMappingURL=Banner.module.css.map */

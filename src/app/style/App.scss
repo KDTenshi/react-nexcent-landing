@@ -13,3 +13,9 @@
   min-height: 100vh;
   background: c.$NEUTRAL_WHITE;
 }
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

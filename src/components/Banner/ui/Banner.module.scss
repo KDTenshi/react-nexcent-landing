@@ -1,0 +1,54 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 96px 144px;
+  background: c.$NEUTRAL_SILVER;
+  position: relative;
+}
+
+.Title {
+  @include Headline_1();
+
+  color: c.$NEUTRAL_D_GREY;
+  margin-bottom: 16px;
+
+  & span {
+    color: c.$BRAND_PRIMARY;
+  }
+}
+
+.Subtitle {
+  @include Body_Regular_2();
+
+  color: c.$NEUTRAL_GREY;
+  margin-bottom: 32px;
+}
+
+.Dots {
+  position: absolute;
+  bottom: 26px;
+  right: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.Dot {
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: c.$BRAND_PRIMARY;
+  opacity: 0.3;
+
+  &_Active {
+    opacity: 1;
+  }
+}

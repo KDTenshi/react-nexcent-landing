@@ -1,0 +1,30 @@
+.Clients {
+  padding: 0 144px;
+  background: #ffffff;
+}
+
+.Title {
+  color: #263238;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.Text {
+  color: #263238;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.Logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=Clients.module.css.map */
