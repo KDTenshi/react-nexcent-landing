@@ -27,7 +27,7 @@ const Community: FC = () => {
       <p className={style.Text}>Who is Nextcent suitable for?</p>
       <div className={style.Info}>
         {items.map((item) => (
-          <div className={style.Item}>
+          <div className={style.Item} key={item.title}>
             <img src={item.image} alt={item.title} />
             <h3 className={style.Item_Title}>{item.title}</h3>
             <p className={style.Item_Text}>{item.text}</p>

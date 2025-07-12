@@ -1,0 +1,60 @@
+.Achievments {
+  padding: 64px 144px;
+  background: #f5f7fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Title {
+  color: #263238;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+}
+.Title span {
+  color: #4caf4f;
+}
+
+.Text {
+  color: #263238;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #263238;
+}
+
+.Counts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 30px;
+}
+
+.Count {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 255px;
+  gap: 16px;
+}
+.Count_Number {
+  color: #263238;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #4d4d4d;
+}
+.Count_Title {
+  color: #263238;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+}/*# sourceMappingURL=Achievments.module.css.map */

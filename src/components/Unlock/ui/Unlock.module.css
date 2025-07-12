@@ -1,0 +1,28 @@
+.Unlock {
+  padding: 0 144px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Info {
+  padding-right: 60px;
+}
+
+.Title {
+  color: #263238;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+  margin-bottom: 16px;
+}
+
+.Text {
+  color: #263238;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  margin-bottom: 32px;
+}/*# sourceMappingURL=Unlock.module.css.map */

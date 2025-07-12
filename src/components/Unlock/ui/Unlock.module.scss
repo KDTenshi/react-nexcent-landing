@@ -1,0 +1,27 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Unlock {
+  padding: 0 144px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Info {
+  padding-right: 60px;
+}
+
+.Title {
+  @include Headline_2();
+
+  color: c.$NEUTRAL_D_GREY;
+  margin-bottom: 16px;
+}
+
+.Text {
+  @include Body_Regular_3();
+
+  color: c.$NEUTRAL_GREY;
+  margin-bottom: 32px;
+}

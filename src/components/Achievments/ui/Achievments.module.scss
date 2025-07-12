@@ -1,0 +1,58 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Achievments {
+  padding: 64px 144px;
+  background: c.$NEUTRAL_SILVER;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Title {
+  @include Headline_2();
+
+  color: c.$NEUTRAL_D_GREY;
+
+  & span {
+    color: c.$BRAND_PRIMARY;
+  }
+}
+
+.Text {
+  @include Body_Regular_2();
+
+  color: c.$NEUTRAL_BLACK;
+}
+
+.Counts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 30px;
+}
+
+.Count {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 255px;
+  gap: 16px;
+
+  &_Number {
+    @include Headline_3();
+
+    color: c.$NEUTRAL_D_GREY;
+  }
+
+  &_Title {
+    @include Body_Regular_2();
+
+    color: c.$NEUTRAL_GREY;
+  }
+}

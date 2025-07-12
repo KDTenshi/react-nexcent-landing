@@ -1,0 +1,64 @@
+.Customers {
+  padding: 32px 144px;
+  background: #f5f7fa;
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  justify-content: space-between;
+}
+
+.Text {
+  color: #263238;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 16px;
+}
+
+.Name {
+  color: #263238;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4caf4f;
+  margin-bottom: 8px;
+}
+
+.Organization {
+  color: #263238;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #89939e;
+  margin-bottom: 32px;
+}
+
+.List {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 32px;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 41px;
+}
+
+.Link {
+  color: #263238;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  display: block;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #4caf4f;
+}/*# sourceMappingURL=Customers.module.css.map */

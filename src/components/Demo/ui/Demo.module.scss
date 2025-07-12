@@ -1,0 +1,19 @@
+@use "../../../shared/style/colors" as c;
+@import "../../../shared/style/mixins";
+
+.Demo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 0;
+  background: c.$NEUTRAL_SILVER;
+}
+
+.Title {
+  @include Headline_1();
+
+  color: c.$NEUTRAL_BLACK;
+  width: 850px;
+  text-align: center;
+}

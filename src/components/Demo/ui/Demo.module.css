@@ -1,0 +1,18 @@
+.Demo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 0;
+  background: #f5f7fa;
+}
+
+.Title {
+  color: #263238;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #263238;
+  width: 850px;
+  text-align: center;
+}/*# sourceMappingURL=Demo.module.css.map */
